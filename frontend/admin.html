@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="card wide">
+    <span class="badge">Admin</span>
+    <h1 class="welcome" id="heading">Loading...</h1>
+    <p class="sub">Only accounts with the ADMIN role can open this page.</p>
+
+    <div class="stat">
+      <strong id="totalUsers">-</strong>
+      <span>Registered users</span>
+    </div>
+
+    <button type="button" class="btn secondary" id="logoutBtn">Log out</button>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
